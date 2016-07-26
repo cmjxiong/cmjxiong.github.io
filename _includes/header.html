@@ -12,7 +12,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <p class="navbar-text">知识改变生活</p>
+      <p class="navbar-text">长路漫漫，学无止境</p>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -23,7 +23,7 @@
           {% else %}
           <li>
         {% endif %}
-          <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span>博客</a></li>
+          <a href="{{ site.baseurl }}/"><span class="glyphicon glyphicon-th-large"></span>主页</a></li>
 
         {% for p in site.pages %}
           {% if p.title %}
@@ -35,7 +35,7 @@
             <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
           {% endif %}
         {% endfor %}
-		<li><a href="#stq=" ><span class="glyphicon glyphicon-search"></span>搜索</a></li>
+		<li><a href="#stq=" ><span class="glyphicon glyphicon-search"></span>Welcome！</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
