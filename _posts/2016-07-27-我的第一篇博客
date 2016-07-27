@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Linux搭建Nginx"
-date:   2016-04-29 14:19:00
+title:  "A New Start"
+date:   2016-07-27 14:19:00
 categories: Linux
-excerpt: Linux搭建Nginx。
+excerpt: 第一篇博客。
 ---
 
 * content
@@ -11,7 +11,7 @@ excerpt: Linux搭建Nginx。
 
 ---
 
-### 什么是Nginx
+### 我为什么要做博客
 是一个使用c语言开发的高性能的http服务器及反向代理服务器。
 Nginx是一款高性能的http 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器。由俄罗斯的程序设计师Igor Sysoev所开发，官方测试nginx能够支支撑5万并发链接，并且cpu、内存等资源消耗却非常低，运行非常稳定。
 
