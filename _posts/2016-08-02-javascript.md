@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "avaScript 基础"
+title:  "JavaScript 基础"
 date:   2016-08-02 19:06:05
 categories: JavaScript
 excerpt: JavaScript的相关基础课程 。
