@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "百度Web前端技术学院(2)-JavaScript 基础"
-date:   2015-04-22 19:06:05
-categories: Front-end JavaScript
-excerpt: 百度前端学院基础课程 JavaScript 相关。
+title:  "avaScript 基础"
+date:   2016-08-02 19:06:05
+categories: JavaScript
+excerpt: JavaScript的相关基础课程 。
 ---
 
 * content
