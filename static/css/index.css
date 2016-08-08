@@ -3,7 +3,8 @@
  */
 /* commom */
 body {
-	background-image: url("http://foojay.tk/static/bg.jpg");
+	/*background-image: url("http://foojay.tk/static/bg.jpg");*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#15A216), to(#fafafa));
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
