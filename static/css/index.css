@@ -3,8 +3,9 @@
  */
 /* commom */
 body {
-	background-image: url("http://foojay.tk/static/bg.jpg");
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*background-image: url("http://foojay.tk/static/bg.jpg");*/
+        background-image: url("http://pic.qiantucdn.com/58pic/15/71/06/55k58PICNgS_1024.jpg");
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
 article p{
