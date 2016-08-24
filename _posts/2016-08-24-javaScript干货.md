@@ -20,25 +20,29 @@ excerpt: JavaScript的相关基础课程 。
 ### javascript运算符
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105101slvidd0lddjlvvvd.png)
 
-javascript数组
+### javascript数组
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105102it9ppytzt8op65sk.jpg)
 
-javascript流程语句
+### javascript流程语句
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105103y5f2fw43dnv9cewz.jpg)
 
-javascript字符串函数
+### javascript字符串函数
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105717unyupu20n2pm7p2y.jpg)
 
-javascript函数基础
+### javascript函数基础
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105201u18qie9gc8eqqgc3.png)
 
-javascript基础DOM操作
+### javascript基础DOM操作
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105201x767d5qf15fxqxeg.png)
 
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105202nr9oufu5wddu5rdb.jpg)
 
-文档对象模型DOM
+### 文档对象模型DOM
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105203zyr76m89y4m8m2tb.jpg)
 
-javascript正则表达式
+### javascript正则表达式
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105204g2tibabtmi45rtfx.gif)
+
+
+## 总结
+每个人对于js的掌握程度都有所不同，这几张图中的知识点当然是最基础的，但是也是最关键的，小敏已经把这些图保存在本地啦！有空就拿出来看看，温故与修缮自己的知识。
