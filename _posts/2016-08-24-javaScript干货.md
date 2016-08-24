@@ -14,10 +14,10 @@ excerpt: JavaScript的相关基础课程 。
 
 今天逛网站的时候不小心看到10张总结javaScript所有语法和规则的图片，对于我这种喜欢整理笔记的人来说实在是太欢喜了，于是我不要脸的搬了过来。
 
-###javaScript变量
+### javaScript变量
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105101ycat62v3tg6ddzct.jpg)
 
-###javascript运算符
+### javascript运算符
 ![](http://www.html5cn.org/data/attachment/portal/201604/25/105101slvidd0lddjlvvvd.png)
 
 javascript数组
