@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "数据库基础"
+date:   2016-11-14 14:50:00
+categories: SQl
+excerpt: 一些基础的数据库操作语句 。
+---
+
+* content
+{:toc}
+
+##SQL 对大小写不敏感。
+##SQL 使用单引号来环绕文本值（大部分数据库系统也接受双引号）。
+##如果是数值，请不要使用引号。
+
+
+##SQL 分为两个部分：
+###数据操作语言 (DML) 
+
+    SELECT - 从数据库表中获取数据
+    UPDATE - 更新数据库表中的数据
+    DELETE - 从数据库表中删除数据
+    INSERT INTO - 向数据库表中插入数据
+
+###数据定义语言 (DDL)
+
+    CREATE DATABASE - 创建新数据库
+    ALTER DATABASE - 修改数据库
+    CREATE TABLE - 创建新表
+    ALTER TABLE - 变更（改变）数据库表
+    DROP TABLE - 删除表
+    CREATE INDEX - 创建索引（搜索键）
+    DROP INDEX - 删除索引
+
+##SELECT语句用于从表中选取数据
+    SELECT 列名称 FROM 表名称 【多个列，用逗号分隔】
+    去除相同选中列中的行 SELECT DISTINCT 列名称 FROM 表名称
+
+
+##有条件地从表中选取数据
+    SELECT 列名称 FROM 表名称 WHERE 列 运算符 值
+
+    操作符 		描述
+    = 		等于
+    <> 		不等于
+    > 		大于
+    < 		小于
+    >= 		大于等于
+    <= 		小于等于
+    BETWEEN 	在某个范围内
+    LIKE 		搜索某种模式
+注释：在某些版本的 SQL 中，操作符 <> 可以写为 !=。
+
+###AND 和 OR 可在 WHERE 子语句中把两个或多个条件结合起来。
+如果第一个条件和第二个条件都成立，则 AND 运算符显示一条记录。
+    例如，SELECT * FROM Persons WHERE FirstName='Thomas' AND LastName='Carter'
+如果第一个条件和第二个条件中只要有一个成立，则 OR 运算符显示一条记录。
+    例如，SELECT * FROM Persons WHERE firstname='Thomas' OR lastname='Carter'
+如果第一个条件和第二个条件中只要有一个成立，第三个条件必须成立。
+    例如，SELECT * FROM Persons WHERE (FirstName='Thomas' OR FirstName='William')
+AND LastName='Carter'
+
+
+##数据列排序
+ORDER BY 语句默认按照升序对记录进行排序。
+    例如，SELECT Company, OrderNumber FROM Orders ORDER BY Company
+注释：尾部加DESC可降序排序，加ASC数字顺序排序
+     例如，SELECT Company, OrderNumber FROM Orders ORDER BY Company DESC, OrderNumber ASC
+
+
+##向表格中插入新的行
+    INSERT INTO 表名称 VALUES (值1，值2，...）
+    插入指定行，INSERT INTO 表名称 (列1, 列2,...) VALUES (值1, 值2,....)
+
+
+##修改表中的数据
+    UPDATE 表名称 SET 列名称 = 新值 WHERE 列名称 = 某值
+
+##删除表中的行
+    DELETE FROM 表名称 WHERE 列名称 = 值
