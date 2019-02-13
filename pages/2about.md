@@ -6,7 +6,8 @@ icon: glyphicon-heart
 ---
 
 
-### 联系我
+### 我呀
 
-* email：[741063161@qq.com](mailto:{{ site.email }})
-* QQ：741063161
+* 我是个好人；
+* 我是个前端；
+* 我代码写的很烂——
