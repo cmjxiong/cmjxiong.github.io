@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73ba0a43-f0e6-45a9-915d-5fbe95ff021f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" afterPath="$PROJECT_DIR$/static/css/index.css" />
     </list>
     <ignored path="Blog-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,16 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="194">
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="165" column="1" lean-forward="true" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -133,6 +133,8 @@
       <find>关于我</find>
       <find>layout:</find>
       <find>pages</find>
+      <find>myAffix!!!</find>
+      <find>.shadow-corner-curl:before</find>
     </findStrings>
     <dirStrings>
       <dir>G:\cmjxiong.github.io</dir>
@@ -155,6 +157,7 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/pages/2about.md" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
       </list>
     </option>
   </component>
@@ -378,7 +381,7 @@
       <updated>1469494327853</updated>
       <workItem from="1469494329094" duration="3000" />
       <workItem from="1469495732803" duration="653000" />
-      <workItem from="1550025548986" duration="2711000" />
+      <workItem from="1550025548986" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="整理">
       <created>1550026996150</created>
@@ -401,11 +404,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550028514543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zz">
+      <created>1550028562131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550028562131</updated>
+    </task>
+    <task id="LOCAL-00005" summary="zz">
+      <created>1550028790546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550028790546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3367000" />
+    <option name="totallyTimeSpent" value="3921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -438,7 +455,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理" />
+    <MESSAGE value="zz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -640,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="64" column="60" lean-forward="true" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -674,10 +684,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="64" column="60" lean-forward="true" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="165" column="1" lean-forward="true" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
           <folding />
         </state>
       </provider>
